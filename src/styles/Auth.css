@@ -1,0 +1,120 @@
+.auth-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url('../projectbot/images/app-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-left-logo {
+  height: 40px;
+}
+
+.top-right-info {
+  gap: 20px;
+  display: flex;
+  font-size: 15px;
+  text-align: center;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.bottom-right-time {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.auth-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.center-logo {
+  width: 400px;
+  margin-bottom: 10px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.input-wrapper {
+  position: relative;
+  margin: 10px 0;
+  width: 400px;
+}
+
+.input-wrapper input {
+  width: 100%;
+  padding: 12px 35px 12px 10px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  font-size: 14px;
+  outline: none;
+}
+
+input::placeholder {
+    color: #ccc;
+  }
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #ccc;
+  font-size: 16px;
+  pointer-events: none;
+}
+
+.login-form button {
+  width: 400px;
+  margin-top: 15px;
+  padding: 12px;
+  background-color: rgba(255, 255, 255, 0.15);
+  color: #ccc;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.login-form button:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.auth-error {
+  color: #ff4c4c;
+  margin-top: 10px;
+  font-size: 13px;
+}

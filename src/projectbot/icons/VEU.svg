@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 192 192" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,0,0.03)">
+        <clipPath id="_clip1">
+            <path d="M188.56,191L2.83,191C1.27,191 0,189.73 0,188.17L0,2.82C0,1.26 1.27,-0.01 2.83,-0.01L188.56,-0.01C190.12,-0.01 191.39,1.26 191.39,2.82L191.39,188.17C191.4,189.73 190.13,191 188.56,191Z"/>
+        </clipPath>
+        <g clip-path="url(#_clip1)">
+            <path d="M92.52,191.02L191.4,191.02L191.4,-0.03L92.52,191.02Z" style="fill:rgb(207,10,44);fill-rule:nonzero;"/>
+        </g>
+        <g>
+            <clipPath id="_clip2">
+                <path d="M188.56,191L2.83,191C1.27,191 0,189.73 0,188.17L0,2.82C0,1.26 1.27,-0.01 2.83,-0.01L188.56,-0.01C190.12,-0.01 191.39,1.26 191.39,2.82L191.39,188.17C191.4,189.73 190.13,191 188.56,191Z"/>
+            </clipPath>
+            <g clip-path="url(#_clip2)">
+                <path d="M92.52,191.02L30.92,71.44L69.44,71.44L92.52,117.52L150.83,-0.03L150.73,-0.03L150.83,-0.03L0,-0.03L0,191.02L92.52,191.02Z" style="fill:rgb(0,22,137);fill-rule:nonzero;"/>
+            </g>
+        </g>
+        <clipPath id="_clip3">
+            <path d="M188.56,191L2.83,191C1.27,191 0,189.73 0,188.17L0,2.82C0,1.26 1.27,-0.01 2.83,-0.01L188.56,-0.01C190.12,-0.01 191.39,1.26 191.39,2.82L191.39,188.17C191.4,189.73 190.13,191 188.56,191Z"/>
+        </clipPath>
+        <g clip-path="url(#_clip3)">
+            <path d="M92.52,117.52L69.44,71.44L30.92,71.44L92.52,191.02L191.4,-0.03L150.82,-0.03L92.52,117.52Z" style="fill:white;fill-rule:nonzero;"/>
+        </g>
+        <clipPath id="_clip4">
+            <path d="M188.56,191L2.83,191C1.27,191 0,189.73 0,188.17L0,2.82C0,1.26 1.27,-0.01 2.83,-0.01L188.56,-0.01C190.12,-0.01 191.39,1.26 191.39,2.82L191.39,188.17C191.4,189.73 190.13,191 188.56,191Z"/>
+        </clipPath>
+        <g clip-path="url(#_clip4)">
+            <rect x="0" y="-0.03" width="191.4" height="191.05" style="fill:none;"/>
+        </g>
+    </g>
+</svg>

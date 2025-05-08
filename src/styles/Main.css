@@ -1,0 +1,141 @@
+/* full-screen mountain background */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("../projectbot/images/app-background.jpg") center center /
+    cover no-repeat fixed;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+/* — HEADER — */
+.main-header {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-logo {
+  height: 40px;
+}
+
+.header-center {
+  display: flex;
+  margin-right: 10%;
+  gap: 20px;
+  font-size: 15px;
+  color: #ccc;
+}
+
+.header-center div {
+  display: flex;
+  align-items: center;
+}
+
+.header-avatar {
+  width: 36px;
+  height: 36px;
+  background-color: #00c8d8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* — CONTENT — */
+.main-content {
+  position: relative;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* ← was center */
+  width: 90%; /* ← new */
+  max-width: 1000px; /* ← new */
+  margin: 0 auto;
+}
+
+.page-title {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.project-tag {
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+  padding: 4px 10px;
+  font-size: 12px;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+/* — SEARCH & BUTTON — */
+.search-btn-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  width: 90%;
+  max-width: 1000px;
+  margin-bottom: 40px;
+}
+
+.search-input-container {
+  position: relative;
+  flex: 1;
+}
+
+.search-input-container input {
+  width: 100%;
+  padding: 12px 45px 12px 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ccc;
+  pointer-events: none;
+}
+
+.new-project-btn {
+  padding: 12px 25px;
+  background-color: #00c8d8;
+  border: none;
+  border-radius: 5px;
+  color: #0f2027;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* — NO PROJECTS MESSAGE — */
+.no-projects {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  color: #ddd;
+}
